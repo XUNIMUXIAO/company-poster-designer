@@ -10,3 +10,5 @@ outputs/
 *.webp
 *.json
 !.github/*.json
+!examples/
+!examples/*.png

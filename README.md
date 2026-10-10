@@ -8,8 +8,21 @@
 - `scripts/poster.py`：用 Pillow 渲染海报草案并写出检查信息。
 - `requirements.txt`：脚本依赖。
 - `INSTALL-macOS.md`：macOS 安装与测试。
+- `examples/`：六张已移除品牌 Logo 的冬至、劳动节海报示例。
 
-仓库**不包含品牌 Logo、建筑照片或参考海报**。使用者通过 `--logo` 提供自己有权使用的透明 PNG，通过 `--base` 提供建筑照片。MIT 许可适用于仓库中的代码和文字，不授予任何第三方商标、品牌素材或项目照片的使用权。
+仓库**不包含品牌 Logo 或源建筑照片**。使用者通过 `--logo` 提供自己有权使用的透明 PNG，通过 `--base` 提供建筑照片。MIT 许可适用于仓库中的代码和文字；示例海报仅用于展示设计效果，不包含在 MIT 许可范围内。请自行确认建筑图像等素材的使用权。
+
+## 示例海报
+
+以下六张来自实际设计方案，均已移除右下角的品牌 Logo。点击图片可查看原尺寸。
+
+| 冬至 A · 霓虹 | 冬至 B · 花彩 | 冬至 C · 经典 |
+| --- | --- | --- |
+| [![冬至海报 A](examples/winter-solstice-01.png)](examples/winter-solstice-01.png) | [![冬至海报 B](examples/winter-solstice-02.png)](examples/winter-solstice-02.png) | [![冬至海报 C](examples/winter-solstice-03.png)](examples/winter-solstice-03.png) |
+
+| 劳动节 A | 劳动节 B | 劳动节 C |
+| --- | --- | --- |
+| [![劳动节海报 A](examples/labor-day-a.png)](examples/labor-day-a.png) | [![劳动节海报 B](examples/labor-day-b.png)](examples/labor-day-b.png) | [![劳动节海报 C](examples/labor-day-c.png)](examples/labor-day-c.png) |
 
 ## 安装为 Codex Skill
 
@@ -41,4 +54,4 @@ python scripts/poster.py --base path/to/building.jpg --festival 冬至 --logo pa
 
 ## 许可
 
-代码与文档按 [MIT License](LICENSE) 发布。请自行确认输入照片和 Logo 的使用权。
+代码与文档按 [MIT License](LICENSE) 发布；`examples/` 中的展示图不在该许可范围内。请自行确认输入照片和 Logo 的使用权。

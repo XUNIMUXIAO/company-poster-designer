@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+assets/
+output/
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.json
+!.github/*.json
